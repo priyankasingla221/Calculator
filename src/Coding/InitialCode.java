@@ -4,7 +4,7 @@ public class InitialCode {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int num1= 1 ;
+		int num1= 22 ;
 		int num2= 2 ;
 		int Resultadd= num1 + num2;
 		int Resultsub= num1 - num2;
@@ -15,6 +15,9 @@ public class InitialCode {
 		System.out.println("Subtraction Result = " +Resultsub);
 		System.out.println("Multiplication Result " +ResultMulti);	
 		
+		
+		int Resultdiv=num1/num2;
+		System.out.println("Dividion Result = " +Resultdiv);
 	}
 
 }
